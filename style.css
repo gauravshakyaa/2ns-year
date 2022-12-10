@@ -1,0 +1,175 @@
+}
+.table{
+	background-color: lightyellow;
+
+
+}
+.animation .con{
+	animation-direction: right;
+	width: 20%;
+	position: relative;
+	margin-left: 20%;
+	animation-fill-mode: all;
+	height: 100px;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	transform-origin: right;
+}
+@keyframes example{
+	0% {background-color: red ; left:0px; top:0px;}
+	25% {background-color: green; left:200px; top:0px;}
+	50% {background-color: yellow; left:200px; top:200px;}
+	75% {background-color: brown left:0px; top:200px;}
+	100% {background-color: gray; left: 0px; top:200px;}
+
+}
+table{
+
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	
+}
+.form input{
+	border-radius: 10px;
+	padding: 10px;
+
+}
+.form caption {
+	font-family: cornerstone;
+}
+.table {
+	width: 60%;
+	text-align: center;
+	align-self: center;
+}
+.image{
+	float: center;
+	text-align: center;
+}
+.image img{
+	opacity: 1;
+	width: 60%; 
+}
+.image img:hover{
+	transition: 0.6s;
+	opacity: 0.5;
+	
+}
+.header{
+	padding-left: 38%;
+	background-color: #2F4F4F;
+	height: 4.75em;
+	text-align: center;
+	margin-bottom: 0;
+	margin: none;
+	margin-top: -30px;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.footer{
+		
+		padding:50px;
+		margin-top:7px;
+}
+
+#headername{
+	font-family: Courier;
+	text-align: center;
+	
+	margin-top: none;
+	height: 0;
+	color: 	#F0E68C;
+	text-align: center;
+
+}
+
+p{
+	text-align: center;
+}
+#copyright{
+	color: white;
+	font-family: arial;
+	background-color: gray;
+	padding: 5px;
+	margin: 0;
+	margin-left: 0;
+}
+
+
+
+/*td{
+	text-align: center;
+}*/
+.copy{
+	color: black;
+
+
+}
+
+.table a:hover{
+	background-color: gray;
+}
+
+
+table{
+	width: 100%;
+	height: 500px;
+	font-family: arial;
+	border-collapse: collapse;
+	column-span: none;
+	border-spacing: 0%;
+	margin-left: 50%;
+}
+
+
+
+.nachayekolyrics{
+	width: 25%;
+	text-align: center;
+	float: center;
+	font-family: arial;
+	text-align: center;
+	margin-left: 35%;
+}
+
+.nav{
+	position: sticky;
+	word-spacing: 80px ;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+	background-color: #2F4F4F; 
+	margin-top: 2px;
+
+}
+.sticky {
+	position: fixed;
+	top: 0;
+
+}
+
+#egde{
+	width: 30%;
+	height: 20%;
+}
+.nav a:hover{
+	transition: 0.6s;
+	background-color: #008080;
+	}
+.nav a{
+	color: white;
+	line-height: 40px;
+	padding: 2%;
+}
+
+.logo{
+	
+}
+
+
